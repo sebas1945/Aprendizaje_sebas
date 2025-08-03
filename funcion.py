@@ -1,4 +1,5 @@
-def suma(n1,n2):
-    return n1 + n2 
+#version2
+def suma(*num):
+    return sum(num)
 
-print(suma(2,2))
+print(suma(2,2,2,2))
